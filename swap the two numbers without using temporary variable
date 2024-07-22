@@ -1,0 +1,9 @@
+#Write a program to swap the two numbers without using temporary variable
+x=int(input('Enter the value of x :'))
+y=int(input('Enter the value of y :'))
+#x = 69
+#y = 96
+x = x + y
+y = x - y
+x = x - y
+print("After Swapping: x =", x, " y =", y)
