@@ -1,0 +1,37 @@
+# Arithmetic Operators
+a = 10
+b = 5
+
+print("Arithmetic Operators:")
+print("a + b =", a + b)   # Addition
+print("a - b =", a - b)   # Subtraction
+print("a * b =", a * b)   # Multiplication
+print("a / b =", a / b)   # Division
+print("a % b =", a % b)   # Modulus
+print("a ** b =", a ** b) # Exponentiation
+print("a // b =", a // b) # Floor Division
+print()
+
+# Relational Operators
+x = 10
+y = 20
+
+print("Relational Operators:")
+print("x == y:", x == y)   # Equal to
+print("x != y:", x != y)   # Not equal to
+print("x > y:", x > y)     # Greater than
+print("x < y:", x < y)     # Less than
+print("x >= y:", x >= y)   # Greater than or equal to
+print("x <= y:", x <= y)   # Less than or equal to
+print()
+
+# Identity Operators
+m = [1, 2, 3]
+n = [1, 2, 3]
+o = m
+
+print("Identity Operators:")
+print("m is n:", m is n)   # False, as m and n are different objects
+print("m is o:", m is o)   # True, as m and o are the same object
+print("m is not n:", m is not n) # True, as m and n are different objects
+print("m is not o:", m is not o) # False, as m and o are the same object
