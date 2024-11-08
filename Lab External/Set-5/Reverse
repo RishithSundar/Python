@@ -1,0 +1,5 @@
+s=input('Enter the string : ')
+r=''
+for i in range (len(s)-1,-1,-1):
+  r=r+s[i]
+print('The reversed string is :',r)
