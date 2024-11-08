@@ -1,7 +1,0 @@
-def given(s):
-    words = s.split()
-    for word in words:
-        if len(word) % 2 == 0:
-            print(word)
-input_string = "I am raghu"
-given(input_string)
