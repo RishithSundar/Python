@@ -1,0 +1,16 @@
+a = True
+b = False
+print("Logical Operators:")
+print("a and b:", a and b)  # Output: False
+print("a or b:", a or b)    # Output: True
+print("not a:", not a)      # Output: False
+print()
+x = 5  # Binary: 0101
+y = 3  # Binary: 0011
+print("Bitwise Operators:")
+print("x & y:", x & y)      # Output: 1 (Binary: 0001)
+print("x | y:", x & y)      # Output: 3 (Binary: 0111)
+print("x ^ y:", x & y)      # Output: 6 (Binary: 0110)
+print("~x:", x & y)         # Output: -6 (Binary: 1010 i
+print("x << 1:", x & y)     # Output: 10 (Binary: 1010)
+print("x >> 1:", x & y)     # Output: 2 (Binary: 0010)
