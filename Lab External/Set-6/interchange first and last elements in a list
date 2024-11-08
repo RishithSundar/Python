@@ -1,0 +1,9 @@
+def l(list):
+    size = len(list)
+    temp = list[0]
+    list[0] = list[size - 1]
+    list[size - 1] = temp
+    return list
+my_list = [12, 35, 9, 56, 24]
+new_list = l(my_list)
+print(new_list)
